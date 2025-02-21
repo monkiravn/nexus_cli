@@ -26,7 +26,7 @@ echo "Swap setup completed. Checking status..."
 free -h
 
 # --- Cập nhật và nâng cấp hệ thống ---
-sudo apt update && sudo apt upgrade -y
+sudo apt update && sudo apt -y upgrade 
 
 # --- Cài đặt các gói cần thiết ---
 sudo apt install -y build-essential pkg-config libssl-dev git-all protobuf-compiler
